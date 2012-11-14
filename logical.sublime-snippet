@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[<?php
+	require_once('classes/flowcontrol/seclog.class');
+	require_once('classes/interface/converter.class');
+	\$oSecLog = new SecLog();
+	\$oConv = new Converter();
+
+	/**
+	 * ${1:Descripcion del archivo}
+	 */
+	${2:El código}
+
+	header('Location: '.\$GLOBALS['config']->get_var('initpage')."?event=${3:Evento siguiente}");
+	exit();
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>logical</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
