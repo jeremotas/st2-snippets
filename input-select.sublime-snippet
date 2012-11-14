@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$oForm->input(0,++\$i,${1:Nombre},'select',${2:Valor por default},'${3:searchable}',' ${4:multiple} ',1,1,'left',${5:Array de multiples valores});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>input-select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

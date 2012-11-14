@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$oForm = new Form(${1:Nombre}, ${2:Metodo (POST/GET)}, ${3:Action}, ${4:EncType (multipart/form-data)},${5:Columnas}, ${6:Filas},${7:Clase},${8:TabIndex (boolean)},${9:Otros parametros});
+
+\$i=0;
+${10:Inputs}
+
+\$oForm->input(0,++\$i,'submit','submit','${11:Nombre de submit}');
+\$sHTML = \$oForm->toString();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

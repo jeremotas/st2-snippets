@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$oForm->input(0,++\$i,${1:Nombre},${2:Tipo},${3:Valor por default},${4:Clase CSS},${5:Otros parametros},${6:Colspan},${7:Rowspan},${8:Align},${9:Array de multiples valores},${10:Post input},${11:Tabulado},${12:Pre input});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>input</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

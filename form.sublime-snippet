@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<?php
+	require_once('classes/flowcontrol/seclog.class');
+	require_once('classes/interface/interface.class');
+	require_once('classes/interface/converter.class');
+	\$oSecLog = new SecLog();
+	\$oConv = new Converter();
+	\$oInterface = new q_interface();
+
+	/**
+	 * ${1:Descripcion del archivo}
+	 */
+	${2:El código}
+
+	\$GLOBALS['HTMLResponse'] = $sHTML;
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
