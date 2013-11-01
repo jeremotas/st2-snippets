@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if(file_exists('policies/${1:evento}-'.\$GLOBALS['config']->get_var('system_id').'.php'))
+	include('policies/${1:evento}-'.\$GLOBALS['config']->get_var('system_id').'.php');		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>politica</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

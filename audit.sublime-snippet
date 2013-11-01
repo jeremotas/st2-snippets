@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$oMA = new ManAudit();
+\$oMA->register_audit('','${1:tabla}',\$_SESSION['iFKUser'],date('Y-m-d H:i:s'),'${2:operacion}}',${3:Id del objeto});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>audit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax({
+	 url: '${1:URL}',
+	 data: ${2:data},
+	 type: '${3:GET/POST}',
+	 success: function (data) {
+	 	//var obj = JSON.parse(data);
+	 	${4:success}
+	 },
+	 error: function (data) {
+	 	//v_alert('Hubo un problema de comunicacion');
+		${5:error}	 
+	 }
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

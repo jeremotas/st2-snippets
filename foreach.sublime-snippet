@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+if(is_array(\$a${1:arreglo}) && count(\$a${1:arregla})) {
+	foreach(\$a${1:arreglo} as \$iK=>\$${2:variable}) {
+		//${3:iteracion}	
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foreach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
