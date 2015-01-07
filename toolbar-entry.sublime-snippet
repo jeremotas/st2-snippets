@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\$oForm->input(0,++\$i,${1:Nombre},'text',${2:Valor por default});
+\$aToolbar[] = array('title'=>'${1:title}','link'=>\$GLOBALS['config']->get_var('initpage')."?event=${2:event}",'target'=>'_blank');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>input-text</tabTrigger>
+	<tabTrigger>toolbar-entry</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

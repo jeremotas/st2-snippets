@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$oAudits = \$oSecLog->execute_event(\$iFKUser,'r_get_all_audit',array('search'=>array('tabla'=>'${1:table}','objectid'=>${2:object_id})),true);
+\$sAudits = \$oAudits->render_html();
+\$aToolbar[] = array('title'=>'Auditoria','link'=>'#aca','click'=>"\$('#audits').toggle('fast')",'append'=>\$sAudits);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>toolbar-entry-audit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
