@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+![${1:explain}](documentation/images/${2:imagefile}.png "${1:explain}") 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>md-image</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

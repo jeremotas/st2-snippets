@@ -12,7 +12,7 @@
 
 	header('Location: '.\$GLOBALS['config']->get_var('initpage')."?event=${3:Evento siguiente}");
 	exit();
-?>
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>logical</tabTrigger>

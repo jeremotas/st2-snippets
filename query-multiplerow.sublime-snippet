@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$oDB = new Database();
+\$sQuery = "${1:query}";
+\$oDB->query(\$sQuery);
+\$aRet = array();
+while( \$aFila = \$oDB->fetch_row()) {
+	${2:do stuff with fila and aRet}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>query-multiplerow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
